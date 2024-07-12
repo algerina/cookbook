@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import RecipeCard from ".components/RecipeCard";
+import RecipeCard from "./RecipeCard";
 
 const ListWrapper = styled.div`
   display: flex;
