@@ -24,11 +24,13 @@ const Description = styled.p`
   color: #333;
 `;
 
-const RecipeCard = ({ title, description }) => {
+const RecipeCard = ({ title, description, ingredients, instructions }) => {
   return (
     <Card>
       <Title>{title}</Title>
       <Description>{description}</Description>
+      <ingredients>{ingredients}</ingredients>
+      <instructions>{instructions}</instructions>
     </Card>
   );
 };
